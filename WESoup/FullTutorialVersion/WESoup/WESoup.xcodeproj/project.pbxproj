@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0362CE20896AE800285831 /* WhiskeyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0362CD20896AE800285831 /* WhiskeyResponse.swift */; };
+		2E0362D02089755000285831 /* Whiskeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0362CF2089755000285831 /* Whiskeys.swift */; };
+		2E3D5ECF2088204400BCCA61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D5ECE2088204400BCCA61 /* AppDelegate.swift */; };
+		2E3D5ED12088204400BCCA61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D5ED02088204400BCCA61 /* ViewController.swift */; };
+		2E3D5ED42088204400BCCA61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3D5ED22088204400BCCA61 /* Main.storyboard */; };
+		2E3D5ED62088204800BCCA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3D5ED52088204800BCCA61 /* Assets.xcassets */; };
+		2E3D5ED92088204800BCCA61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3D5ED72088204800BCCA61 /* LaunchScreen.storyboard */; };
+		2E3D5EE42088204800BCCA61 /* WESoupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D5EE32088204800BCCA61 /* WESoupTests.swift */; };
+		2E3D5EEF208822FA00BCCA61 /* WhiskeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D5EEE208822FA00BCCA61 /* WhiskeyVC.swift */; };
+		C5853DDC93B23CA7A06F22A9 /* Pods_WESoup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B5B1062A11105DAFE778B1 /* Pods_WESoup.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E3D5EE02088204800BCCA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E3D5EC32088204400BCCA61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E3D5ECA2088204400BCCA61;
+			remoteInfo = WESoup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E0362CD20896AE800285831 /* WhiskeyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeyResponse.swift; sourceTree = "<group>"; };
+		2E0362CF2089755000285831 /* Whiskeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whiskeys.swift; sourceTree = "<group>"; };
+		2E3D5ECB2088204400BCCA61 /* WESoup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WESoup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3D5ECE2088204400BCCA61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E3D5ED02088204400BCCA61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E3D5ED32088204400BCCA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E3D5ED52088204800BCCA61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E3D5ED82088204800BCCA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E3D5EDA2088204800BCCA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3D5EDF2088204800BCCA61 /* WESoupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WESoupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3D5EE32088204800BCCA61 /* WESoupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WESoupTests.swift; sourceTree = "<group>"; };
+		2E3D5EE52088204800BCCA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3D5EEE208822FA00BCCA61 /* WhiskeyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiskeyVC.swift; sourceTree = "<group>"; };
+		3120DBF9E41625B1C13CB131 /* Pods-WESoup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WESoup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WESoup/Pods-WESoup.debug.xcconfig"; sourceTree = "<group>"; };
+		70B5B1062A11105DAFE778B1 /* Pods_WESoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WESoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BB690EB3F44F25507BCA3C /* Pods_WESoupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WESoupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF477306BF111484A6A7BED9 /* Pods-WESoup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WESoup.release.xcconfig"; path = "Pods/Target Support Files/Pods-WESoup/Pods-WESoup.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3D5EC82088204400BCCA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5853DDC93B23CA7A06F22A9 /* Pods_WESoup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3D5EDC2088204800BCCA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3D5EC22088204400BCCA61 = {
+			isa = PBXGroup;
+			children = (
+				2E3D5ECD2088204400BCCA61 /* WESoup */,
+				2E3D5EE22088204800BCCA61 /* WESoupTests */,
+				2E3D5ECC2088204400BCCA61 /* Products */,
+				6CC22B14597D167985569E7D /* Pods */,
+				4C1CEAB27F63B28B6D3CFC4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3D5ECC2088204400BCCA61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3D5ECB2088204400BCCA61 /* WESoup.app */,
+				2E3D5EDF2088204800BCCA61 /* WESoupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3D5ECD2088204400BCCA61 /* WESoup */ = {
+			isa = PBXGroup;
+			children = (
+				2E3D5ECE2088204400BCCA61 /* AppDelegate.swift */,
+				2E3D5ED02088204400BCCA61 /* ViewController.swift */,
+				2E0362CF2089755000285831 /* Whiskeys.swift */,
+				2E3D5ED22088204400BCCA61 /* Main.storyboard */,
+				2E3D5EEE208822FA00BCCA61 /* WhiskeyVC.swift */,
+				2E0362CD20896AE800285831 /* WhiskeyResponse.swift */,
+				2E3D5ED52088204800BCCA61 /* Assets.xcassets */,
+				2E3D5ED72088204800BCCA61 /* LaunchScreen.storyboard */,
+				2E3D5EDA2088204800BCCA61 /* Info.plist */,
+			);
+			path = WESoup;
+			sourceTree = "<group>";
+		};
+		2E3D5EE22088204800BCCA61 /* WESoupTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E3D5EE32088204800BCCA61 /* WESoupTests.swift */,
+				2E3D5EE52088204800BCCA61 /* Info.plist */,
+			);
+			path = WESoupTests;
+			sourceTree = "<group>";
+		};
+		4C1CEAB27F63B28B6D3CFC4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70B5B1062A11105DAFE778B1 /* Pods_WESoup.framework */,
+				A6BB690EB3F44F25507BCA3C /* Pods_WESoupTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CC22B14597D167985569E7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3120DBF9E41625B1C13CB131 /* Pods-WESoup.debug.xcconfig */,
+				FF477306BF111484A6A7BED9 /* Pods-WESoup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3D5ECA2088204400BCCA61 /* WESoup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3D5EE82088204800BCCA61 /* Build configuration list for PBXNativeTarget "WESoup" */;
+			buildPhases = (
+				526900C57601FF045F9E4A25 /* [CP] Check Pods Manifest.lock */,
+				2E3D5EC72088204400BCCA61 /* Sources */,
+				2E3D5EC82088204400BCCA61 /* Frameworks */,
+				2E3D5EC92088204400BCCA61 /* Resources */,
+				FE65F3B70B6B4807EBDA072E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WESoup;
+			productName = WESoup;
+			productReference = 2E3D5ECB2088204400BCCA61 /* WESoup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E3D5EDE2088204800BCCA61 /* WESoupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3D5EEB2088204800BCCA61 /* Build configuration list for PBXNativeTarget "WESoupTests" */;
+			buildPhases = (
+				2E3D5EDB2088204800BCCA61 /* Sources */,
+				2E3D5EDC2088204800BCCA61 /* Frameworks */,
+				2E3D5EDD2088204800BCCA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E3D5EE12088204800BCCA61 /* PBXTargetDependency */,
+			);
+			name = WESoupTests;
+			productName = WESoupTests;
+			productReference = 2E3D5EDF2088204800BCCA61 /* WESoupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3D5EC32088204400BCCA61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Zander Nickle";
+				TargetAttributes = {
+					2E3D5ECA2088204400BCCA61 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2E3D5EDE2088204800BCCA61 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2E3D5ECA2088204400BCCA61;
+					};
+				};
+			};
+			buildConfigurationList = 2E3D5EC62088204400BCCA61 /* Build configuration list for PBXProject "WESoup" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3D5EC22088204400BCCA61;
+			productRefGroup = 2E3D5ECC2088204400BCCA61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3D5ECA2088204400BCCA61 /* WESoup */,
+				2E3D5EDE2088204800BCCA61 /* WESoupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3D5EC92088204400BCCA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3D5ED92088204800BCCA61 /* LaunchScreen.storyboard in Resources */,
+				2E3D5ED62088204800BCCA61 /* Assets.xcassets in Resources */,
+				2E3D5ED42088204400BCCA61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3D5EDD2088204800BCCA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		526900C57601FF045F9E4A25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WESoup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE65F3B70B6B4807EBDA072E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WESoup/Pods-WESoup-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WESoup/Pods-WESoup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3D5EC72088204400BCCA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3D5ED12088204400BCCA61 /* ViewController.swift in Sources */,
+				2E3D5ECF2088204400BCCA61 /* AppDelegate.swift in Sources */,
+				2E3D5EEF208822FA00BCCA61 /* WhiskeyVC.swift in Sources */,
+				2E0362D02089755000285831 /* Whiskeys.swift in Sources */,
+				2E0362CE20896AE800285831 /* WhiskeyResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3D5EDB2088204800BCCA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3D5EE42088204800BCCA61 /* WESoupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E3D5EE12088204800BCCA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E3D5ECA2088204400BCCA61 /* WESoup */;
+			targetProxy = 2E3D5EE02088204800BCCA61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E3D5ED22088204400BCCA61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3D5ED32088204400BCCA61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E3D5ED72088204800BCCA61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3D5ED82088204800BCCA61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3D5EE62088204800BCCA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E3D5EE72088204800BCCA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3D5EE92088204800BCCA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3120DBF9E41625B1C13CB131 /* Pods-WESoup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WESoup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = znickle.WESoup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3D5EEA2088204800BCCA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF477306BF111484A6A7BED9 /* Pods-WESoup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WESoup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = znickle.WESoup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E3D5EEC2088204800BCCA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WESoupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = znickle.WESoupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WESoup.app/WESoup";
+			};
+			name = Debug;
+		};
+		2E3D5EED2088204800BCCA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WESoupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = znickle.WESoupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WESoup.app/WESoup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3D5EC62088204400BCCA61 /* Build configuration list for PBXProject "WESoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3D5EE62088204800BCCA61 /* Debug */,
+				2E3D5EE72088204800BCCA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3D5EE82088204800BCCA61 /* Build configuration list for PBXNativeTarget "WESoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3D5EE92088204800BCCA61 /* Debug */,
+				2E3D5EEA2088204800BCCA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3D5EEB2088204800BCCA61 /* Build configuration list for PBXNativeTarget "WESoupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3D5EEC2088204800BCCA61 /* Debug */,
+				2E3D5EED2088204800BCCA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3D5EC32088204400BCCA61 /* Project object */;
+}
