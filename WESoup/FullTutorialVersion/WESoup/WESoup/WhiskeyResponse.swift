@@ -25,8 +25,13 @@ struct WhiskeyResponse {
     let bottlesOnOrder = try doc.getElementById("ContentPlaceHolderBody_lblWhsOnOrder")?.text()
     print("Bottles on order: \(bottlesOnOrder)")
     print("Bottles in warehouse: \(bottlesInWarehouse)")
-    let whiskeyInfo = Whiskeys(whiskeyName: whiskeyTitle, whiskeyOnOrder: bottlesOnOrder!, whiskeyInWarehouse: bottlesInWarehouse!)
-    whiskeys.append(whiskeyInfo)
+    if (bottlesOnOrder != nil) {
+      let whiskeyInfo = Whiskeys(whiskeyName: whiskeyTitle, whiskeyOnOrder: bottlesOnOrder!, whiskeyInWarehouse: bottlesInWarehouse!)
+      whiskeys.append(whiskeyInfo)
+    } else {
+      let whiskeyNotShowing = Whiskeys(whiskeyName: whiskeyTitle, whiskeyOnOrder: "0", whiskeyInWarehouse: "0")
+      whiskeys.append(whiskeyNotShowing)
+    }
     self.whiskeys = whiskeys
   }
 }
